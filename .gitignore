@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+__pycache__/
+venv/
+config.py
+credentials.json
+token.json
+backup/**/
