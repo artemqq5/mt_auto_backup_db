@@ -83,7 +83,7 @@ def backup_mysql_database(host, user, password, database_name, output_file):
 
 
 def main():
-    date_of_backup = datetime.now().date()
+    date_of_backup = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     name = f"Backup_{date_of_backup}"
 
     token = generate_token()
